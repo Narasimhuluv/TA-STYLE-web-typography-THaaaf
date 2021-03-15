@@ -1,0 +1,109 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* -------------------css reset */
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+body{
+    background-color: #282E2B;
+    color: white;
+}
+header{
+    width: 70%;
+    margin: auto;
+    /* border: 1px solid grey; */
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header h1{
+    font-size: 67px;
+    text-transform: capitalize;
+    line-height: 1.2;
+    text-shadow: 1 5 12 rgb(0, 0, 0,0.7);
+}
+
+/* --------------------- */
+
+section{
+    width: 70%;
+    margin: auto;
+    margin-top: 25px;
+    /* border: 1px solid white; */
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+section .article .typography{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+section .article .typography h3{
+    font-size: 25px;
+    text-transform: capitalize;
+    font-style: italic;
+}
+section .article .typography .red_color{
+    color: #F40346;
+}
+
+section .article .para{
+    font-size: 21px;
+    line-height: 1.5;
+    margin-top: 30px;
+    color: rgb(165, 164, 164);
+}
+
+section .article h2{
+    font-size: 55px;
+    margin-top: 45px;
+    text-transform: capitalize;
+}
