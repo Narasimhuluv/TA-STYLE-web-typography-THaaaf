@@ -66,6 +66,7 @@ header h1{
     font-size: 67px;
     text-transform: capitalize;
     line-height: 1.2;
+    text-shadow: 1 5 12 rgb(0, 0, 0,0.7);
 }
 
 /* --------------------- */
@@ -75,6 +76,7 @@ section{
     margin: auto;
     margin-top: 25px;
     /* border: 1px solid white; */
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 section .article .typography{
@@ -83,9 +85,11 @@ section .article .typography{
 
 }
 
+
 section .article .typography h3{
     font-size: 25px;
     text-transform: capitalize;
+    font-style: italic;
 }
 section .article .typography .red_color{
     color: #F40346;
