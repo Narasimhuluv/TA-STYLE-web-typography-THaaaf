@@ -1,0 +1,313 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* -------------------RESET CSS STYLES */
+
+header{
+    max-width: 100%;
+     
+}
+header .container{
+    width: 80%;
+    height: 80px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'DM Serif Display', serif;
+    margin: auto;
+}
+
+header h2{
+    font-size: 50px;
+    color: #2D2640;
+}
+
+
+header .navigations a{
+    margin: 20px;
+    text-decoration: none;
+    color: #7D7A83;
+    font-size: 18px;
+}
+
+header .navigations .view_plans{
+    border: 1px solid #7D7A83;
+    padding: 8px;
+}
+
+/* -----------------SECTION-1 START */
+
+
+.section_1{
+    max-width: 100%;
+    background-color: #2D2640;
+    font-family: 'Karla', sans-serif;
+    position: relative;
+}
+.section_1 article{
+    max-width: 80%;
+    margin: auto;
+    color: white;
+}
+
+.section_1 article .container{
+    width: 35%;
+    padding: 80px 0;
+    display: inline-block;
+}
+
+.section_1 article .container hr{
+    width: 250px;
+    color: white;
+    margin-left: 0;
+}
+
+.section_1 article .container h1{
+    font-size: 65px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.section_1 article .container p{
+    font-size: 20px;
+    line-height: 1.3;
+    margin-top: 25px;
+    margin-bottom: 35px;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    
+}
+
+.section_1 article .container .view_plans{
+    border: 1px solid white;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.section_1 .image img{
+    width: 500px;
+    position: absolute;
+    top: 100px;
+    right: 200px;
+    border-radius: 10px;
+}
+
+
+/* ---------------SECTION-2 */
+
+.section_2{
+    max-width: 100%;
+    background-color: white;
+    font-family: 'Karla', sans-serif; 
+    margin-top: 130px; 
+}
+.section_2 article{
+    max-width: 80%;
+    margin: auto;
+    /* border: 1px solid black; */
+}
+
+.section_2 article .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section_2 article .container .data{
+    width: 50%;
+    
+}
+.section_2 article .container .data h2{
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.section_2 article .container .data p{
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+}
+.section_2 article .container .data a{
+    padding: 10px;
+    border: 1px solid black;
+    color: black;
+    text-decoration: none;
+    
+}
+
+/* ---------------SECTION-3 START */
+.section_3{
+    max-width: 100%;
+    background-color: white;
+    font-family: 'Karla', sans-serif; 
+    margin-top: 80px; 
+}
+.section_3 article{
+    max-width: 80%;
+    margin: auto;
+    /* border: 1px solid black; */
+}
+.section_3 article hr{
+    width: 180px;
+    color: black;
+    margin-left: 0;
+    border-radius: 20px;
+}
+
+.section_3 article h2{
+    font-size: 45px;
+    margin-top: 35px;
+}
+
+.section_3 article .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.section_3 article .data{
+    width: 25%;
+    /* border: 1px solid black; */
+}
+
+.section_3 article .data i{
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 50% ;
+    background-color: #8AB4F0;
+    color: white;
+    margin-top: 20px;
+}
+
+.section_3 article .data h3{
+    font-size: 22px;
+    margin-top: 20px;
+    font-weight: bolder;
+}
+.section_3 article .data p{
+    margin-top: 20px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    color: grey;
+}
+
+.section_3 article .find_out{
+    background-color: #2D2640;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 135px 80px;
+    color: white;
+}
+
+.section_3 article .find_out a{
+    padding: 10px;
+    border: 1px solid white;
+    color: white;
+    text-decoration: none;
+}
+
+
+/* ----------------FOOTER START */
+footer{
+    max-width: 100%;
+    background-color: white;
+    font-family: 'Karla', sans-serif; 
+    margin-bottom: 150px;
+    margin-top: 50px;   
+}
+footer .container{
+    width: 80%;
+    margin: auto;
+}
+
+footer .container .brand_icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .container .brand_icons h2{
+    font-size: 45px;
+    font-family: 'DM Serif Display', serif;
+}
+footer .container  .navigate_icons i{
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.74);
+    margin-left: 20px;
+}
+
+footer .container .navigations{
+    text-align: center;
+    margin-top: 25px;
+}
+footer .container .navigations a{
+    text-decoration: none;
+    margin-left: 35px;
+    font-size: 16px;
+    color: grey;
+}
+
+footer  .footer_bottom{
+    height: 40px;
+    margin-top: 30px;
+    background-color: #2D2640;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
+
+
+
+
